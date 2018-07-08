@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Cruise Locations</title>
+  </head>
+
+  <body onload = "loadMap()">
+    <h2>Cruise Locations</h2>
+    <div id = "map" style = "width:640px; height:480px;"></div>
+      <script>
+
+        
+        function getJSONMarkers() {
+          const markers = [
+            {
+              name:"Miami, Florida", 
+              location: [25.78254,-80.2994]
+            },            {
+              name: "Key West, Florida",
+              location: [24.564599,-81.798481]
+            },
+            {
+              name: "Nassau, Bahammas",
+              location: [25.057831, -77.344992]
+            }
+          ];
+          return markers;
+        }
+
+        function loadMap() {
+          // Initialize Google Maps
+          const mapOptions = {
+            center:new google.maps.LatLng(24.816293, -79.589075),
+            zoom: 7
+             
+          }
+          const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+          // Load JSON Data
+          const hotelMarkers = getJSONMarkers();
+
+          // Initialize Google Markers
+          for(hotel of hotelMarkers) {
+            let marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(hotel.location[0],hotel.location[1]),
+            title:hotel.name                         
+            })
+          }
+        }
+      </script>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+  </body>
+</html>

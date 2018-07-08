@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Cruise Locations</title>
+  </head>
+
+  <body onload = "loadMap()">
+    <h2>Cruise Locations</h2>
+    <div id = "map" style = "width:640px; height:480px;"></div>
+      <script type="text/javascript" src="json-data.json"></script>
+
+        
+    <script>
+        function loadMap() {
+          // Initialize Google Maps
+          const mapOptions = {
+            center:new google.maps.LatLng(24.816293, -79.589075),
+              zoom:7
+             
+          }
+          const map = new google.maps.Map(document.getElementById("map"), mapOptions) ;
+
+          // Load JSON Data
+          var mydata = JSON.parse(data);
+
+          // Initialize Google Markers
+          for(x=0;x<3; x++) {
+            let marker = new google.maps.Marker({
+            map:map,
+            position: new google.maps.LatLng(mydata[x].location[0], mydata[x].location[1]),
+            title: mydata[x].name                         
+            })
+          }
+        }
+      </script>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+  </body>
+</html>

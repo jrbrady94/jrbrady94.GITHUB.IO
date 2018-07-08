@@ -1,0 +1,28 @@
+<style type ="text/css">
+body {margin: 15px;}
+        header {
+            text-align: center;
+            color: yellow;
+            border: solid thick;
+            border-color: greenyellow;
+            background: cornflowerblue;
+            line-height: 50%;
+            margin-top: 40px;
+        }
+        nav {color: cornflowerblue; font-size: 20px;}
+        nav ol {
+            text-align: center;
+            font-size: 20px;
+        }
+        nav ol li {
+            display: inline;
+            padding: 1em;
+        }
+        nav ul li {
+            display: list-item;
+        }
+        #div1{
+            text-align: center;
+            font-size: 25px;
+        }
+</style>
