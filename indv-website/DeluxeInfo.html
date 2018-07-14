@@ -1,103 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-wideth, intial-scale=1.0">
-<title>Deluxe Info</title>
-<style>
-        body {
-            margin: 15px;
-            background: cornflowerblue;
-        }
-
-        header {
-            text-align: center;
-            border-radius: 15px;
-            line-height: 50%;
-            margin-top: 40px;
-        }
-
-        nav {
-            color: cornflowerblue;
-            font-size: 20px;
-        }
-
-        nav ol {
-            text-align: center;
-            font-size: 20;
-        }
-
-        nav ol li {
-            display: inline;
-            padding: 1em;
-        }
-
-        nav ul li {
-            display: list-item;
-        }
-
-       #div1 {
-            text-align: center;
-            color: aqua;
-            background-color: cornflowerblue;
-            margin-right: 550px;
-            margin-left: 550px;
-            border: solid thick;
-            border-color: greenyellow;
-            font-size: 40px;
-        }
-        #div2 {
-            text-align: center;
-            font-size: 25px;
-            text-decoration: underline;
-            margin-right: 500px;
-            margin-left: 500px;
-            border: solid thick;
-            border-color: greenyellow;
-            color: yellow;
-        }
-        #div3 {
-            font-size: 25px;
-            text-align: center;
-            border: solid thick;
-            margin-right: 30px;
-            margin-left: 30px;
-            border-color: greenyellow;
-        }
-        footer{
-            font-size: 30px;
-            text-align: center;
-            margin-right: 150px;
-            margin-left: 150px;
-            border: solid thick;
-            border-color: greenyellow;
-        }
-        footer ol {
-            text-align: center;
-            font-size: 20;
-        }
-
-        footer ol li {
-            display: inline;
-            padding: 1em;
-        }
-
-        footer ul li {
-            display: list-item;
-        }
-
-
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-wideth, intial-scale=1.0">
+    <link href="../CSS/css.css" rel="stylesheet" type="text/css">
+    <title>Deluxe Info</title>
 </head>
 
 <body>
     <header>
         <figure>
-            <img width="200" height="150" src = "../cit230/ponder-prove/images/Logo.jpg" alt ="Paradise Logo" title = "Find your Paradise!">
+            <img width="200" height="150" src="../cit230/ponder-prove/images/Logo.jpg" alt="Paradise Logo" title="Find your Paradise!">
         </figure>
     </header>
     <br>
-    <div id="div1">Packages</div>
+    <div id="div1">Deluxe Package</div>
     <br>
     <nav>
         <ol>
@@ -109,25 +27,29 @@
             <li><a href="../jrbrady94.GITHUB.IO/cit230-links.html"> CIT230-links (Link)</a></li>
         </ol>
     </nav>
-    <div id="div2">
-        <p><b>Deluxe Package</b></p>
-    </div>
     <br>
-<div id="div3">
-The deluxe package comes with a two bed and one bath room that has a balcony that
-overlooks the ocean. This is a square footage of 325 ft. The deluxe package also comes with a
-bonus excursion which is exclusive to each individual line! (See more info for each at the Cruise
-Line Sections).
-</div>
-<br>
-<footer>
-For more Info on each package click on each link for each one!
-<br>
-<ol>
-    <li><a href="../indv-website/StandardInfo.html">Standard Information</a></li>
-    <li><a href="../indv-website/DeluxeInfo.html">Deluxe Information</a></li>
-    <li><a href="../indv-website/PremiumInfo.html">Premium Information</a></li>
-</ol>
-</footer>
+    <div class="flex-row">
+        <div class="img-ctr"><img src="../../jrbrady94.GITHUB.IO/cit230/ponder-prove/images/deluxe-room.jpg" width="400" height="250" alt="Deluxe Room Blueprint" /></div>
+        <div class="flex-item">
+            The deluxe package comes with a two bed and two bathrooms that has a balcony that overlooks the ocean. This is a square footage of 325 ft.
+        </div>
+        <div class="img-ctr"><img src="../../jrbrady94.GITHUB.IO/cit230/ponder-prove/images/deluxe-balcony.jpg" width="400" height="250" alt="Deluxe Excursion" /></div>
+        <div class="flex-item">
+            The deluxe package also comes with a bonus excursion which is exclusive to each individual line! See more info from the Cruise Line Section. Links directly to <a href ="../indv-website/Hawaii-Trip.html">Hawaii</a> and <a href ="../indv-website/Bahammas-Trip.html">Bahammas</a> are provided.
+        </div>
+    </div>
+    <div id="div3">
+        <u>For more Info on each package click on each link for each one!</u>
+        <br>
+        <ol>
+            <li><a href="../indv-website/StandardInfo.html">Standard Information</a></li>
+            <li><a href="../indv-website/DeluxeInfo.html">Deluxe Information</a></li>
+            <li><a href="../indv-website/PremiumInfo.html">Premium Information</a></li>
+        </ol>
+    </div>
+    <footer>
+        Call 1-800-BOOKNOW!
+    </footer>
 </body>
+
 </html>

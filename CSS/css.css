@@ -1,0 +1,133 @@
+        body,
+        html {
+            margin: 0;
+            background: cornflowerblue;
+        }
+
+        header {
+            text-align: center;
+            line-height: 50%;
+        }
+
+        nav {
+            text-align: center;
+            background-color: cornflowerblue;
+            border-bottom: solid thick;
+            border-bottom-color: paleturquoise;
+            padding-bottom: 10px;
+            margin: 20px;
+        }
+
+        nav ol {
+            font-size: 20px;
+        }
+
+        nav ol li {
+            border: solid;
+            border-color: paleturquoise;
+            background: limegreen;
+            display: inline;
+            padding: 1em;
+        }
+
+        nav ol li:hover {
+            background-color: paleturquoise;
+        }
+
+        nav ol li a:link,
+        nav ol li a:active,
+        nav ol li a:hover,
+        nav ol li a:visited,
+            {
+            color: limegreen;
+        }
+
+        nav ul li {
+            display: list-item;
+        }
+
+        #div1 {
+            font-family: "Arial Black", Gadget;
+            text-align: left;
+            border-bottom: solid thick;
+            border-bottom-color: black;
+            margin: 20px;
+            margin-right: 750px;
+            color: paleturquoise;
+            font-size: 50px;
+        }
+
+        #div2 {
+            margin: 20px;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        #div3 {
+            font-family: "Arial Black", Gadget;
+            text-align: center;
+            padding-bottom: 80px;
+            font-size: 30px;
+        }
+
+        #div3 ol {
+            text-align: center;
+        }
+
+        #div3 ol li {
+            font-size: 20px;
+            border: solid;
+            border-color: green;
+            background: paleturquoise;
+            display: inline;
+            padding: 1em;
+        }
+
+        #div3 ol li:hover {
+            background-color: limegreen;
+        }
+
+        #div3 ol li a:link,
+        #div3 ol li a:active,
+        #div3 ol li a:hover,
+        #div3 ol li a:visited,
+            {
+            color: paleturquoise;
+        }
+
+        #div3 ul li {
+            display: list-item;
+        }
+
+        footer {
+            font-family: 'Comic Sans MS', cursive;
+            border: solid;
+            border-color: black;
+            font-size: 30px;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            bottom: 0px;
+            margin-right: 0;
+            background-color: limegreen;
+        }
+
+        .flex-row {
+            width: 100%;
+            margin: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            padding-bottom: 40px;
+        }
+
+        .flex-item {
+            width: 45%;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 20px;
+            text-align: left;
+            padding-left: 5%;
+        } //This makes sure the image takes up 100% of the container width. It is necessary when dealing with large images that by default overlap their parent containers.
+        .img-ctr img {
+            width: 100%;
+        } //This makes the first p tag in each div underlined like a title.
