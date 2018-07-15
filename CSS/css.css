@@ -100,6 +100,12 @@
             display: list-item;
         }
 
+        #div4 {
+            font-family: "Arial Black", Gadget;
+            text-align: center;
+            font-size: 30px;
+        }
+
         footer {
             font-family: 'Comic Sans MS', cursive;
             border: solid;
