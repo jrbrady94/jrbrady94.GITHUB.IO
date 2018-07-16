@@ -35,12 +35,16 @@
             background-color: paleturquoise;
         }
 
+        nav ol li a {
+            text-decoration: none;
+        }
+
         nav ol li a:link,
         nav ol li a:active,
         nav ol li a:hover,
-        nav ol li a:visited
-            {
+        nav ol li a:visited {
             color: black;
+            text-decoration: none;
         }
 
         nav ul li {
@@ -89,12 +93,16 @@
             background-color: limegreen;
         }
 
+        #div3 ol li a {
+            text-decoration: none;
+        }
+
         #div3 ol li a:link,
         #div3 ol li a:active,
         #div3 ol li a:hover,
-        #div3 ol li a:visited
-            {
+        #div3 ol li a:visited {
             color: black;
+            text-decoration: none;
         }
 
         #div3 ul li {
@@ -135,6 +143,6 @@
             text-align: left;
             padding-left: 5%;
         }
-        .img-ctr img {
-            width: 50;
+
+        .img-ctr img {        
         }
