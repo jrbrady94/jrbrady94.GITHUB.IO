@@ -10,6 +10,7 @@
         }
 
         nav {
+            text-align: center;
             color: black;
             background-color: cornflowerblue;
             border-bottom: solid thick;
