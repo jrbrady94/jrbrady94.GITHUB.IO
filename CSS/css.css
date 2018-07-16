@@ -37,7 +37,7 @@
         nav ol li a:link,
         nav ol li a:active,
         nav ol li a:hover,
-        nav ol li a:visited,
+        nav ol li a:visited
             {
             color: limegreen;
         }
@@ -91,7 +91,7 @@
         #div3 ol li a:link,
         #div3 ol li a:active,
         #div3 ol li a:hover,
-        #div3 ol li a:visited,
+        #div3 ol li a:visited
             {
             color: paleturquoise;
         }
@@ -133,7 +133,7 @@
             font-size: 20px;
             text-align: left;
             padding-left: 5%;
-        } //This makes sure the image takes up 100% of the container width. It is necessary when dealing with large images that by default overlap their parent containers.
+        }
         .img-ctr img {
             width: 100%;
-        } //This makes the first p tag in each div underlined like a title.
+        }
