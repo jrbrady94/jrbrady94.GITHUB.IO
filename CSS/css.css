@@ -11,6 +11,7 @@
 
         nav {
             text-align: center;
+            color: black;
             background-color: cornflowerblue;
             border-bottom: solid thick;
             border-bottom-color: paleturquoise;
@@ -39,7 +40,7 @@
         nav ol li a:hover,
         nav ol li a:visited
             {
-            color: limegreen;
+            color: black;
         }
 
         nav ul li {
